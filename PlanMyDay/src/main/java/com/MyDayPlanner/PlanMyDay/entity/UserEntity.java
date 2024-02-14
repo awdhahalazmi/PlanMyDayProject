@@ -12,8 +12,7 @@ public class UserEntity {
     private Long id;
 
     @Column(name = "name", nullable = false)
-    private java.lang.String name;
-    @Column(name = "phone_number", nullable = false)
+    private String name;
 
     @Enumerated(EnumType.STRING)
     @OneToOne
